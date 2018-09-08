@@ -1,0 +1,12 @@
+.root
+{
+    background: url('/src/app/assets/city.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.darkOverlay
+{
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}

@@ -1,0 +1,13 @@
+.text
+{
+    font-size: 2em
+}
+
+.img1
+{
+    margin:0;
+    padding : 0 ;
+    width: 38em;
+    
+    transform: translate(-10%,0%);
+}

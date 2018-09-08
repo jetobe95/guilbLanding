@@ -1,0 +1,55 @@
+.wrapper
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%,-43%);
+  width: 100%;
+}
+
+path
+{
+  stroke: #fff;
+  fill: rgb(247, 87, 87);
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate 18s infinite cubic-bezier(0,0.23,1,.1) ;
+}
+
+@keyframes animate 
+{
+  0%
+  {
+    opacity: 0 ;
+    fill:none;
+    stroke-dashoffset: 1800;
+  }
+  5%
+  {
+    opacity: 10 ;
+    fill:none;
+    stroke-dashoffset: 1800;
+  }
+  30%
+  {
+    fill:rgba(255, 255, 255,0);
+  }
+  60%
+  {
+    opacity: 8;
+    fill: rgba(255, 255, 255,1);
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (max-width: 992px)
+{
+  .wrapper
+  {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-43%);
+    width: 115%;
+  }
+}
