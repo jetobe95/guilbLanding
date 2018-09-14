@@ -1,0 +1,40 @@
+.btn2
+{
+  width: 2em;
+  height: 2em;
+}
+
+.btn2:hover
+{
+  background: white;
+  border: none;
+}
+
+.bolde
+{
+  border: 1px solid black;
+  height: 20px;
+}
+
+
+.cardt
+{
+  width: 17rem;
+}
+
+
+.fb
+{
+  float: right;
+}
+
+.hhg
+{
+  height: 100%;
+}
+
+.icons
+{
+  font-size: 150%;
+  color: gray;
+}

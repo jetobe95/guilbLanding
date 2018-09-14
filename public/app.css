@@ -1,0 +1,105 @@
+html,body{
+    margin: 0%;
+    padding:0%
+}
+.navbar___IoeC7
+{
+    opacity: .6;
+}
+
+.root___36xek
+{
+    background: url('/src/app/assets/city.jpg') no-repeat 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.darkOverlay___3gkvf
+{
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.wrapper___39tHq
+{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-30%,-43%);
+  width: 100%;
+}
+
+path
+{
+  stroke: #fff;
+  fill: rgb(247, 87, 87);
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate___3tk19 18s infinite cubic-bezier(0,0.23,1,.1);
+}
+
+@keyframes animate___3tk19 
+{
+  0%
+  {
+    opacity: 0 ;
+    fill:none;
+    stroke-dashoffset: 1800;
+  }
+  5%
+  {
+    opacity: 10 ;
+    fill:none;
+    stroke-dashoffset: 1800;
+  }
+  30%
+  {
+    fill:rgba(255, 255, 255,0);
+  }
+  60%
+  {
+    opacity: 8;
+    fill: rgba(255, 255, 255,1);
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (max-width: 992px)
+{
+  .wrapper___39tHq
+  {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-43%);
+    width: 115%;
+  }
+}
+.text___o6NHA
+{
+    font-size: 2em
+}
+
+.img1___3f1jY
+{
+    margin:0;
+    padding : 0 ;
+    width: 38em;
+    
+    transform: translate(-10%,0%);
+}
+.img2___1LeWC
+{
+    width: 12em;
+    transform: translate(-10%,5%);
+}
+
+.RdS___2jWVZ
+{
+    list-style: none;
+    font-size: 10em;
+}
+.root___3YyKx
+{
+    background-color: black;
+}

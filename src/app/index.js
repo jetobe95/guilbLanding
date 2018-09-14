@@ -6,4 +6,4 @@ import App from './components/App';
 import './scss/bootstrap.scss';
 import './scss/fontAwesome.scss';
 
-render(<App/>,document.getElementById('app'));
+render(<App/>, document.getElementById('app'));

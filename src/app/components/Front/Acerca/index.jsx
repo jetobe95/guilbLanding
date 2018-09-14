@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Style from './acerca.css';
 
-let car = require('../../assets/hola.png');
+let car = require('../../../assets/hola.png');
 
 class Acerca extends Component {
     render() {

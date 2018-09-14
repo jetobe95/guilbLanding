@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Style from './contact.css' ;
 
-let car = require('../../assets/_1.png');
+let car = require('../../../assets/_1.png');
 
 class index extends Component {
     render() {

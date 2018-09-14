@@ -3,22 +3,16 @@ import React, { Component } from 'react';
 import './app.css';
 
 import NavBar from '../NavBar';
-import Header from '../Header';
-import DemoSe from '../DemoSe';
-import Acerca from '../Acerca';
-import Contact from '../Contact';
-import Footer from '../Footer';
+import Front from '../Front';
+import Store from '../Store';
 
 class App extends Component {
     render() {
         return (
-            <div>
+            <div>            
                 <NavBar/>
-                <Header/>
-                <DemoSe/>
-                <Acerca/>
-                <Contact/>
-                <Footer/>
+                <Front/>
+
             </div>
         );
     }
