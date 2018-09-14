@@ -44,7 +44,7 @@ class index extends Component {
                                 </div>
                                 <div className="col-md-6 p-3">
                                     <figure >
-                                        <img className={Style.img2} src={car} alt="Mre"/>
+                                        <img className={Style.img2} styles={{width: "12em",transform: "translate(-10%,5%)"}} src={car} alt="Mre"/>
                                     </figure>
                                 </div>
                     </div>        
